@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.clear{
+    clear:both;
+}
+.over{
+    overflow: hidden;
+}
+/*g-nav部分开始*/
+.g-nav{
+    text-align: center;
+    background:#f7f7f7;
+}
+.g-nav .nav-tit{
+    width:16.411%;
+    background:#f77400;
+    line-height: 78px;
+    font-size:24px;
+    color:#fff;
+    float:left;
+}
+.g-nav  menu{
+    float: left;
+    font-size:14px;
+}
+.g-nav  menu a{
+    display: inline-block;
+    line-height: 40px;
+    overflow: hidden;
+    width:100px;
+    font-weight: bold;
+    color:#666;
+}
+.g-nav  menu a:hover{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav  .show a{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .nav-rig{
+    float:right;
+    line-height: 78px;
+    color:#898989;
+    font-size:14px;
+}
+.g-nav .nav-rig a{
+    color:#898989;
+}
+.g-nav .nav-rig em{
+    color:#f77400;
+}
+.g-nav .nav-rig a:hover{
+    color:#f77400;
+}
+/*g-nav部分结束*/
+
+/*简介内容开始*/
+.g-content{
+    margin-top:35px;
+}
+.g-content .con-left{
+    float:left;
+    width:77%;
+}
+.g-content .con-left p{
+    font-size: 13px;
+    color:#666;
+    text-indent: 2em;
+    margin-bottom:30px;
+    line-height: 35px;
+}
+.g-content .con-right{
+    float:right;
+}
+.g-content .con-right img{
+    max-width:100%;
+    vertical-align: middle;
+}

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.clear{
+    clear:both;
+}
+.over{
+    overflow: hidden;
+}
+/*g-nav部分开始*/
+.g-nav{
+    text-align: center;
+    background:#f7f7f7;
+}
+.g-nav .nav-tit{
+    width:16.411%;
+    background:#f77400;
+    line-height: 78px;
+    font-size:24px;
+    color:#fff;
+    float:left;
+}
+.g-nav .ywfw-ul{
+    height:78px;
+    line-height:118px;
+    /*width:448px;*/
+    padding-left:20px;
+    display: flex;
+    justify-content: flex-start;
+    float:left;
+}
+.g-nav .ywfw-ul li a{
+    font-size:14px;
+    display: inline-block;
+    line-height: 40px;
+    overflow: hidden;
+    width:100px;
+    font-weight: bold;
+    color:#666;
+    margin-right:15px;
+}
+.g-nav .ywfw-ul li a:hover{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .ywfw-ul li:first-child a{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .nav-rig{
+    float:right;
+    line-height: 78px;
+    color:#898989;
+    font-size:14px;
+}
+.g-nav .nav-rig a{
+    color:#898989;
+}
+.g-nav .nav-rig em{
+    color:#f77400;
+}
+.g-nav .nav-rig a:hover{
+    color:#f77400;
+}
+/*g-nav部分结束*/
+
+/*section部分开始*/
+.container{
+    text-align:left;
+    margin-top:35px;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.ctactit{
+    text-align: center;
+}
+.ctactit h1{
+    font-size:22px;
+    color:#333;
+    line-height:30px;
+}
+.ctactit span{
+    color:#999;
+    line-height:30px;
+}
+.ctaction{
+    margin:65px 0 100px;
+}
+.ctaction .pull_left{
+    float:left;
+    width:51%;
+    border:1px solid #dedede;
+    padding:4px;
+    overflow: hidden;
+}
+.ctaction .pull_right{
+    float:left;
+    width:40%;
+    margin-left: 5%;
+}
+.ctaction .pull_right .information-ul li{
+    line-height: 35px;
+    color:#666;
+    font-size:14px;
+}
+/*section部分结束*/

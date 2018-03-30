@@ -1,0 +1,185 @@
+@charset "UTF-8";
+.clear{
+    clear:both;
+}
+.over{
+    overflow: hidden;
+}
+/*g-nav部分开始*/
+.g-nav{
+    text-align: center;
+    background:#f7f7f7;
+}
+.g-nav .nav-tit{
+    width:16.411%;
+    background:#f77400;
+    line-height: 78px;
+    font-size:24px;
+    color:#fff;
+    float:left;
+}
+.g-nav .ywfw-ul{
+    height:78px;
+    line-height:118px;
+    width:448px;
+    padding-left:20px;
+    display: flex;
+    justify-content: space-between;
+    float:left;
+}
+.g-nav .ywfw-ul li a{
+    font-size:14px;
+    display: inline-block;
+    line-height: 40px;
+    overflow: hidden;
+    width:100px;
+    font-weight: bold;
+    color:#666;
+}
+.g-nav .ywfw-ul li a:hover{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .ywfw-ul li:first-child a{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .nav-rig{
+    float:right;
+    line-height: 78px;
+    color:#898989;
+    font-size:14px;
+}
+.g-nav .nav-rig a{
+    color:#898989;
+}
+.g-nav .nav-rig em{
+    color:#f77400;
+}
+.g-nav .nav-rig a:hover{
+    color:#f77400;
+}
+/*g-nav部分结束*/
+
+/*section部分开始*/
+.container{
+    text-align:center;
+    height:725px;
+    margin-top:35px;
+    overflow: hidden;
+}
+.co-nav{
+    margin:30px 0;
+}
+.co-nav a{
+    font-size: 13px;
+    display: inline-block;
+    margin:0 20px;
+    color:#999;
+}
+.co-nav .co-first{
+    color:#f77400;
+}
+.co-nav a:hover{
+    color:#f77400;
+}
+.img_procon{
+    width:1170px;
+    height:514px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img_procon li{
+    width:275px;
+    text-align:center;
+    overflow: hidden;
+    margin-bottom:35px;
+}
+.img_procon li em{
+    display: inline-block;
+    width:275px;
+    height:166px;
+    overflow: hidden;
+}
+.img_procon li img{
+    transition: 0.5s;
+}
+.img_procon li p{
+    height:25px;
+    display: inline-block;
+    line-height:25px;
+    font-size:16px;
+    color:#333;
+    margin-top:20px;
+    width:100%;
+}
+.img_procon li:hover p{
+    border-bottom: 1px solid #d1d1d1;
+    background:url("../images/probg.png") no-repeat right 0;
+    text-align:left;
+}
+.img_procon li:hover a{
+    color:#f77400;
+}
+.img_procon li:hover img{
+    transform:scale(1.2);
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.fadeInRight:hover {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+.page{
+    margin-bottom:100px;
+    margin-top:50px;
+}
+.page a{
+    display:inline-block;
+    background:#eee;
+    padding:3px 10px;
+    margin-right:1px;
+    transition:0.5s;
+    color:#666;
+    font-size: 14px;
+}
+.page .special{
+    background:#f77400;
+    color:#fff;
+    font-weight: bold;
+}
+.page a:hover{
+    background:#f77400;
+    color:#fff;
+    font-weight: bold;
+}
+/*section部分结束*/

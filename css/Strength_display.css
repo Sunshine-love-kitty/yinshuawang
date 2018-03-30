@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.clear{
+    clear:both;
+}
+.over{
+    overflow: hidden;
+}
+/*g-nav部分开始*/
+.g-nav{
+    text-align: center;
+    background:#f7f7f7;
+}
+.g-nav .nav-tit{
+    width:16.411%;
+    background:#f77400;
+    line-height: 78px;
+    font-size:24px;
+    color:#fff;
+    float:left;
+}
+.g-nav .ywfw-ul{
+    height:78px;
+    line-height:118px;
+    /*width:448px;*/
+    padding-left:20px;
+    display: flex;
+    justify-content: flex-start;
+    float:left;
+}
+.g-nav .ywfw-ul li a{
+    font-size:14px;
+    display: inline-block;
+    line-height: 40px;
+    overflow: hidden;
+    width:100px;
+    font-weight: bold;
+    color:#666;
+    margin-right:15px;
+}
+.g-nav .ywfw-ul li a:hover{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .ywfw-ul li:first-child a{
+    border:1px solid #f77400;
+    color:#f77400;
+    border-radius:20px;
+    background:#fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.g-nav .nav-rig{
+    float:right;
+    line-height: 78px;
+    color:#898989;
+    font-size:14px;
+}
+.g-nav .nav-rig a{
+    color:#898989;
+}
+.g-nav .nav-rig em{
+    color:#f77400;
+}
+.g-nav .nav-rig a:hover{
+    color:#f77400;
+}
+/*g-nav部分结束*/
+
+/*section部分开始*/
+.container{
+    text-align:left;
+    height:660px;
+    margin-top:35px;
+    overflow: hidden;
+}
+.str_txt{
+    font-size:13px;
+    line-height:30px;
+    margin: 0 0 10px;
+    text-indent: 32px;
+}
+.other_imgs{
+    margin:30px 0;
+}
+.other_imgs .strimgc-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.other_imgs .strimgc-ul .str1{
+    width:377px;
+    height:261px;
+    margin-bottom: 35px;
+}
+/*section部分结束*/
